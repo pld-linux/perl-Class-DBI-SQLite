@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Class
-%define	pnam	DBI-SQLite
+%define		pdir	Class
+%define		pnam	DBI-SQLite
 Summary:	Extension to Class::DBI for SQLite
 Summary(pl):	Rozszerzenie Class::DBI dla SQLite
 Name:		perl-Class-DBI-SQLite
