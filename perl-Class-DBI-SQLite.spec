@@ -8,13 +8,13 @@
 Summary:	Extension to Class::DBI for SQLite
 Summary(pl):	Rozszerzenie Class::DBI dla SQLite
 Name:		perl-Class-DBI-SQLite
-Version:	0.04
+Version:	0.06
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	c798f639a537aa831d6d8b63081cabff
+# Source0-md5:	db5153226012892ee5ad543bd30d15c7
 %if %{with tests}
 BuildRequires:	perl-Class-DBI >= 0.85
 BuildRequires:	perl-DBD-SQLite >= 0.07
