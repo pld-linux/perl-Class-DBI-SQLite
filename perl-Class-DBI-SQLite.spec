@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	25e80b9d2f2d66e6fc51d487f0894802
+URL:		http://search.cpan.org/dist/Class-DBI-SQLite/
 %if %{with tests}
 BuildRequires:	perl-Class-DBI >= 0.85
 BuildRequires:	perl-DBD-SQLite >= 0.07
