@@ -6,7 +6,7 @@
 %define		pdir	Class
 %define		pnam	DBI-SQLite
 Summary:	Extension to Class::DBI for SQLite
-Summary(pl):	Rozszerzenie Class::DBI dla SQLite
+Summary(pl.UTF-8):   Rozszerzenie Class::DBI dla SQLite
 Name:		perl-Class-DBI-SQLite
 Version:	0.11
 Release:	1
@@ -34,12 +34,12 @@ set_up_table method allows you to automate the setup of columns and
 primary key by using of SQLite PRAGMA statement (with SQL::Statement
 module).
 
-%description -l pl
+%description -l pl.UTF-8
 Class::DBI::SQLite to rozszerzenie Class::DBI dla DBD::SQLite,
-pozwalaj±ce wype³niaæ automatycznie zwiêkszany identyfikator wiersza
-po instrukcji INSERT. Metoda set_up_table pozwala zautomatyzowaæ
-ustawianie kolumn i klucza g³ównego poprzez u¿ycie instrukcji SQLite
-PRAGMA (przy u¿yciu modu³u SQL::Statement).
+pozwalajÄ…ce wypeÅ‚niaÄ‡ automatycznie zwiÄ™kszany identyfikator wiersza
+po instrukcji INSERT. Metoda set_up_table pozwala zautomatyzowaÄ‡
+ustawianie kolumn i klucza gÅ‚Ã³wnego poprzez uÅ¼ycie instrukcji SQLite
+PRAGMA (przy uÅ¼yciu moduÅ‚u SQL::Statement).
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
