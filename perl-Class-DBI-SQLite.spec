@@ -6,7 +6,7 @@
 %define		pdir	Class
 %define		pnam	DBI-SQLite
 Summary:	Extension to Class::DBI for SQLite
-Summary(pl.UTF-8):   Rozszerzenie Class::DBI dla SQLite
+Summary(pl.UTF-8):	Rozszerzenie Class::DBI dla SQLite
 Name:		perl-Class-DBI-SQLite
 Version:	0.11
 Release:	1
